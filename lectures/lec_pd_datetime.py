@@ -180,6 +180,7 @@ print(prc.index)
 # Compare these two cases:
 
 # prc['Date'] is a series
+print("HERE3")
 dser = pd.to_datetime(prc['Date'], format='%Y-%m-%d')
 print(dser)
 
